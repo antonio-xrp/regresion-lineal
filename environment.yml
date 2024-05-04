@@ -10,16 +10,32 @@ dependencies:
   - invoke
   - jupyter
   - jupyterlab
-  - matplotlib
+  - keras
+  - lightgbm
+  - matplotlib==3.7.3
+  - missingno
   - nbdime
   - numpy
   - pandas
-  - pip
+  - pandas-flavor
+  - pandas-profiling
   - plotly
   - pyjanitor
+  - pylint
   - pyprojroot
-  - python=3.9
-  - seaborn
-
-pip:
+  - pyspark
   - scikit-learn
+  - seaborn
+  - statsmodels
+  - tensorflow
+  - pip
+  - python=3.9
+  - python-dotenv
+  - session-info
+  - pyreadr
+  - upsetplot
+  - fancyimpute
+  - scipy
+pip:
+  - setuptools==58
+  - regressors
